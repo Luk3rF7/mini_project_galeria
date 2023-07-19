@@ -33,7 +33,7 @@ body ul {
   padding: 1.5rem 0;
   margin: 0 auto;
 }
-@media (min-width: 610px) {
+@media (max-width: 625px) {
   .header {
     padding: 1.1rem;
   }
@@ -48,7 +48,7 @@ body ul {
   align-items: center;
   justify-content: center;
 }
-@media (min-width: 610px) {
+@media (max-width: 625px) {
   .header-navbar ul {
     display: none;
   }
@@ -70,7 +70,7 @@ body ul {
   justify-content: center;
   height: 100%;
 }
-@media (min-width: 610px) {
+@media (max-width: 625px) {
   .header-social-media ul {
     display: none;
   }
@@ -93,7 +93,7 @@ body ul {
   justify-content: space-between;
   padding: 0;
 }
-@media (min-width: 610px) {
+@media (max-width: 625px) {
   .gallery {
     flex-direction: column;
   }
@@ -108,7 +108,7 @@ body ul {
   flex-direction: column;
   color: #fff;
 }
-@media (min-width: 610px) {
+@media (max-width: 625px) {
   .gallery-card {
     width: 90%;
     margin-bottom: 6%;
