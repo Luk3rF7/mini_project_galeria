@@ -3,8 +3,7 @@
 <h2> Comando Sass </h2>
 
 <ul>
-<li> sass --watch sass/style.sass:css/style.css
-<li>  
+<li> sass --watch sass/style.sass:css/style.css  
       
         comentarios -> /* */ ,não utilize ; e nem { },
         para importa utilize  ou @use e deve estar
