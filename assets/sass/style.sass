@@ -76,16 +76,16 @@ body
             color: variables.$primary-color
 
 
-.gallery 
-  @include mixins.container
+.gallery
   @include mixins.flex-center
-  flex-wrap: wrap //pula linha
-  justify-content: space-between  // fica espaçadamente igual
+  @include mixins.container
+  flex-wrap: wrap
+  justify-content: space-between
   padding: 0
 
   @include mixins.mobile
-      flex-direction: columns    
-  
+    flex-direction: column
+
   &-card // .gallery-card
     width: 31%
     height: 400px
@@ -95,41 +95,41 @@ body
     color: variables.$primary-color
 
     @include mixins.mobile
-      widht: 90%
+      width: 90%
       margin-bottom: 6%
 
     &-title
       font-size: 2rem
-      font-weight: 300 
-      margin-bottom: 1rem  
+      font-weight: 300
+      margin-bottom: 1rem
 
     &-btn
       padding: .6rem 2rem
       border: 2px solid variables.$primary-color
-      color: variables.$primary-color 
+      color: variables.$primary-color
       font-weight: 400
       text-transform: uppercase
       letter-spacing: 1px
 
       &:hover
-        background-color: variables.$primary-color 
-        color: variables.$bg-color     
-    
-  #card-1 // params
+        background-color: variables.$primary-color
+        color: variables.$bg-color
+
+  #card-1
     @include mixins.bg-img('animais.jpg')
 
-  #card-2 
+  #card-2
     @include mixins.bg-img('arquitetura.jpg')
 
-  #card-3 
+  #card-3
     @include mixins.bg-img('cidade.jpg')
-
+  
   #card-4
     @include mixins.bg-img('decoracao.jpg')
 
   #card-5
     @include mixins.bg-img('esportes.jpg')
-
+  
   #card-6
     @include mixins.bg-img('natureza.jpg')
 
@@ -141,6 +141,7 @@ body
 
   #card-9
     @include mixins.bg-img('refeicoes.jpg')
+
 
 footer 
     text-align: center
