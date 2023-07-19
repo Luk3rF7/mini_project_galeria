@@ -10,3 +10,4 @@
         na primeira linha para importa utilizando
         uma funcionalidade do sass
      
+<h2> <a href="https://luk3rf7.github.io/mini_project_galeria/">landing Page Galeria </h2>
